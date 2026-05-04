@@ -1,0 +1,47 @@
+.win95Table {
+  display: inline-block;
+  background-color: #c0c0c0;
+  padding: 2px;
+  border: 1px solid;
+  border-color: #ffffff #404040 #404040 #ffffff;
+  font-size: 12px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+}
+
+.th {
+  background-color: #c0c0c0;
+  padding: 4px 8px;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid;
+  border-color: #ffffff #808080 #808080 #ffffff;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.td {
+  padding: 3px 6px;
+  border: 1px solid #808080;
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.tr {
+  cursor: pointer;
+}
+
+.tr:hover {
+  background-color: #000080;
+  color: #ffffff;
+}
+
+.tr:hover .td {
+  background-color: #000080;
+  color: #ffffff;
+}

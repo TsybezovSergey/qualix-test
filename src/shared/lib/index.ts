@@ -1,0 +1,1 @@
+export { simpleDay } from './simpleDay/';

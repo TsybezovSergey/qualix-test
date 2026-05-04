@@ -1,0 +1,41 @@
+.win95Input {
+  background: #ffffff;
+  border: 2px solid #666666;
+  border-radius: 2px;
+  color: #000000;
+
+  font-size: 13px;
+  padding: 4px 6px;
+  cursor: text;
+  transition: all 0.2s ease;
+
+  &::placeholder {
+    color: #666666;
+  }
+
+  &:focus {
+    outline: none;
+    border-color: #444444;
+    box-shadow:
+      0 0 0 2px #ffffff,
+      0 0 0 4px #888888;
+  }
+
+  &:disabled {
+    background: #cccccc;
+    border-color: #666666;
+    color: #666666;
+    cursor: not-allowed;
+  }
+
+  text-align: left;
+
+  &[type='password'] {
+    letter-spacing: 1px;
+  }
+
+  ::selection {
+    background: #cccccc;
+    color: #000000;
+  }
+}

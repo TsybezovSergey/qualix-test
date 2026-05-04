@@ -1,0 +1,59 @@
+.win95Modal {
+  min-width: 450px;
+  max-height: 100%;
+  background: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 4px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.55s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #000080 0%, #0000a0 100%);
+  color: #ffffff;
+  padding: 8px 12px;
+  border-bottom: 1px solid #000000;
+}
+
+.title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  padding: 16px;
+}
+
+.description {
+  margin: 0 0 16px 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.footer {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  padding-top: 12px;
+  border-top: 1px solid #e0e0e0;
+  justify-content: flex-end;
+  flex-direction: row;
+  gap: 4px;
+}

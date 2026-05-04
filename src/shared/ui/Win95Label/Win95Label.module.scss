@@ -1,0 +1,23 @@
+.win95Label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000000;
+  line-height: 1.2;
+  cursor: pointer;
+  
+  &:hover {
+    color: #000080;
+  }
+  
+  &:focus-within {
+    color: #000080;
+    font-weight: bold;
+  }
+}
+
+.required {
+  color: #ff0000;
+  font-weight: bold;
+}

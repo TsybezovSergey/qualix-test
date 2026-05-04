@@ -1,0 +1,10 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.requiredStar {
+  color: #cc0000;
+  font-weight: bold;
+}
