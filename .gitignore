@@ -21,7 +21,6 @@ dist-ssr
 
 #ENV 
 .env
-.env.example
 .env.local
 .env.development
 .env.development.local
